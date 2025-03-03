@@ -8,7 +8,7 @@
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Sign in to start your session</p>
+      <p class="login-box-msg">   {{ __('Sign in to start your session') }}</p>
 
       <form method="POST" action="{{ route('login') }}">
         @csrf
@@ -45,7 +45,7 @@
 
           <!-- /.col -->
           <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+            <button type="submit" class="btn btn-primary btn-block">{{ __('Login') }}</button>
           </div>
           <!-- /.col -->
         </div>
