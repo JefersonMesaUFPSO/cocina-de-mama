@@ -6,6 +6,8 @@
   <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: url('/backend/dist/img/welcome/landing.jpg'); background-size: cover; background-position: center; opacity: 0.4; filter: blur(5px); z-index: -1;"></div>
 
   <div class="login-logo">
+  <img src="{{ asset('img/cocina.webp') }}" alt="Logo" class="logo-img">
+  <br>
     <a href="{{ url('/') }}" class="text-[#8B4513] dark:text-[#E6A15C]"><b>La Cocina</b> de Mamá</a>
   </div>
 
@@ -92,6 +94,11 @@
     font-size: 2.1rem;
     font-weight: 300;
   }
+  .login-logo img {
+    width: 80px; /* Ajusta el tamaño del logo */
+    height: auto;
+    border-radius: 50%;
+}
 
   .login-logo a {
     text-decoration: none;

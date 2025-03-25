@@ -17,6 +17,8 @@
 
     <!-- Título/logo -->
     <div class="login-logo">
+    <img src="{{ asset('img/cocina.webp') }}" alt="Logo" class="logo-img">
+    <br>
         <a href="{{ url('/') }}" class="text-[#8B4513] dark:text-[#E6A15C]">
             <b>La Cocina</b> de Mamá
         </a>
@@ -176,6 +178,12 @@
         font-size: 2.1rem;
         font-weight: 300;
     }
+
+    .login-logo img {
+    width: 80px; /* Ajusta el tamaño del logo */
+    height: auto;
+    border-radius: 50%;
+}
 
     .login-logo a {
         text-decoration: none;
